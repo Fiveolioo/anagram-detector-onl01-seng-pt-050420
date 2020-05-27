@@ -9,6 +9,6 @@ class Anagram
   end
   
   def match(words)
-    
+    words.select do {|word| @word. == word}
   end 
 end
